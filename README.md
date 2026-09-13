@@ -1,12 +1,35 @@
 # Waze: User Churn Prediction
 
+## Short Description
+
+Machine learning models identify Waze users who may churn so retention teams can focus supportive engagement efforts.
+
+## Long Description
+
+- Analyzed Waze user activity data to identify behavioral patterns associated with potential churn.
+- Prepared the dataset by reviewing data quality, handling missing values, and separating predictors from the churn target.
+- Engineered features representing driving frequency, app usage, and user engagement.
+- Encoded categorical variables and prepared the data for supervised classification.
+- Trained and tuned Random Forest and XGBoost models to predict whether users may churn.
+- Compared models using recall, precision, F1 score, accuracy, confusion matrices, and feature importance.
+- Prioritized recall because missed churn risks may be more costly than contacting users who remain active.
+- Translated model results into practical retention insights while considering privacy, fairness, and responsible intervention.
+
+## Learned Skills
+
+- Preparing and analyzing user engagement data.
+- Engineering behavioral features for churn prediction.
+- Training and tuning Random Forest and XGBoost models.
+- Evaluating classification performance with business-focused metrics.
+- Communicating predictive insights with privacy and fairness considerations.
+
 ## Project Overview
 
 This project builds and evaluates machine learning models that predict whether a Waze user is likely to churn. The results are intended to help teams understand retention risk and focus user-engagement efforts more effectively.
 
 The analysis follows the PACE framework: Plan, Analyze, Construct, and Execute. It includes data preparation, feature engineering, model training, evaluation, and recommendations for responsible application.
 
-## Objectives
+## Objectives   
 
 - Inspect and prepare Waze user activity data.
 - Engineer behavioral features related to driving and app usage.
